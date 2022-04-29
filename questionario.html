@@ -10,22 +10,38 @@
 <body>
     <h1>Seja, Bem vindo</h1>
     
-    <h3>Preencha o questionario </h3>
 
-        <h4>Neste questionario, iremos avaliar seus conhecimentos para elaborarmos uma forma inovadora de ensino!!!</h4>
+        <p class="paragrafo">Preencha este breve questionario, para te conhecer melhor caro visitante</p>
 
-        <form>
-            <fieldset>
-                <div> Nome </div>
-
-                <div> Idade </div>
-
-                <div> E-mail </div>
-
-                <div>O que você gostaria de aprender?</div>
-
-            </fieldset>
-        </form>
+        <div>
+            <Form>
+                <fieldset id="corpo"> 
+                    <legend class="botao"><strong>Dados Cadastrais</strong></legend>
+                    <div>
+                        <label><strong>Nome</strong></label><br>
+                        <input type="text" name="Nome" id="Nome" required>
+                        <br>
+                    </div>
+ 
+                    <div>
+                        <label><strong>Sexo</strong></label><br>
+                            <select id="Sexo" riquered>
+                                <option selected disabled value="">Selecione</option>
+                                 <option>Masculino</option>
+                                 <option>Feminino</option>
+                                 <option>Outro</option>
+                            </select>
+                    </div>
+                    <div>
+                        <label><strong>E-mail</strong></label><br>
+                        <input type="email" name="email" id="email" required>
+                    </div><br>
+                    
+                    <button class="botao especial" type:submit> Envie </button><br>
+                </fieldset><br>
+            </Form>        
+        </div>
+    
 
         <a href="primeiroHTMLeCSS.html">Retorne a pagina inicial</a>
 </body>
