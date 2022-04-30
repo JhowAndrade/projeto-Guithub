@@ -11,21 +11,21 @@
     <h1>Seja, Bem vindo</h1>
     
 
-        <p class="paragrafo">Preencha este breve questionario, para te conhecer melhor caro visitante</p>
+        <p class="paragrafo">Preencha este breve questionario!!!</p>
 
         <div>
             <Form>
                 <fieldset id="corpo"> 
-                    <legend class="botao"><strong>Dados Cadastrais</strong></legend>
+                    <legend><strong>Dados Cadastrais</strong></legend>
                     <div>
                         <label><strong>Nome</strong></label><br>
-                        <input type="text" name="Nome" id="Nome" required>
+                        <input type="text" name="Nome" required>
                         <br>
                     </div>
  
                     <div>
                         <label><strong>Sexo</strong></label><br>
-                            <select id="Sexo" riquered>
+                            <select>
                                 <option selected disabled value="">Selecione</option>
                                  <option>Masculino</option>
                                  <option>Feminino</option>
@@ -34,15 +34,21 @@
                     </div>
                     <div>
                         <label><strong>E-mail</strong></label><br>
-                        <input type="email" name="email" id="email" required>
+                        <input type="email" name="email" required>
                     </div><br>
                     
-                    <button class="botao especial" type:submit> Envie </button><br>
+                    <div>
+                        <label><strong>Descreva quais linguagens de programação você deseja aprender:</strong></label>        
+                        <textarea id="descricao" name="descricao"></textarea>    
+                    </div>
+
+                    <button class="botao" type="submit"> Envie </button><br>
                 </fieldset><br>
             </Form>        
         </div>
     
-
-        <a href="primeiroHTMLeCSS.html">Retorne a pagina inicial</a>
+        <botton class="botao"> 
+        <a href="primeiroHTMLeCSS.html"><strong>Retorne a pagina inicial</strong></a>
+        </botton>   
 </body>
 </html>

@@ -1,4 +1,6 @@
-* {
+body {
+    margin: 0;
+    padding: 0;
     text-align: center;
     background-color: azure;
 
@@ -40,7 +42,27 @@ img{
 }
 
 #corpo{
-
     text-align: left;
+    float: center;
+    margin-right: 44em;
 
 }
+
+#descricao{
+    width: 75em;
+}
+
+.botao1{
+position: center;
+padding: 10px 32px;
+box-shadow: 3px 3px 3px;
+
+}
+
+.botao{
+    position: fixed;
+    left: 15px;
+    padding: 0px;
+    box-shadow: 3px 3px 3px;
+    
+    }
